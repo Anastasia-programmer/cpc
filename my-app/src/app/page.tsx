@@ -479,6 +479,22 @@ export default function MathWebsite() {
                     config={{
                       responsive: true,
                       displaylogo: false,
+                      modeBarButtonsToRemove: [
+                        "toImage",
+                        "sendDataToCloud",
+            
+                        "zoom2d",
+                        "select2d",
+                        "lasso2d",
+                        "autoScale2d",
+                        "resetScale2d",
+                        "zoomIn2d",
+                        "zoomOut2d",
+                        "pan2d",
+                        "hoverClosestCartesian",
+                        "hoverCompareCartesian",
+                        "toggleHover",
+                      ],
                     }}
                     style={{ width: "100%", height: "100%" }}
                   />
